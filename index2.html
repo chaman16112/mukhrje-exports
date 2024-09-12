@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Switcher</title>
+    <style>
+        .product-main-img img {
+            width: 100%;
+            /* Adjust size as needed */
+            max-width: 600px;
+            /* Adjust size as needed */
+        }
+        
+        .product-img img {
+            width: 100px;
+            /* Adjust size as needed */
+            margin-right: 10px;
+            cursor: pointer;
+            /* Shows a pointer cursor on hover */
+        }
+        
+        .product-img img:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-main-img">
+        <img id="mainImage" src="assets/image/Rectangle 1342.png" alt="Main Product Image">
+    </div>
+    <div class="product-img">
+        <img src="assets/image/Rectangle 1343.png" alt="Thumbnail 1" onclick="changeImage('assets/image/Rectangle 1343.png')">
+        <img src="assets/image/Rectangle 1344.png" alt="Thumbnail 2" onclick="changeImage('assets/image/Rectangle 1344.png')">
+        <img src="assets/image/Rectangle 1345.png" alt="Thumbnail 3" onclick="changeImage('assets/image/Rectangle 1345.png')">
+    </div>
+
+    <script>
+        function changeImage(src) {
+            document.getElementById('mainImage').src = src;
+        }
+    </script>
+</body>
+
+</html>
