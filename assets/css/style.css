@@ -917,21 +917,13 @@ a {
     resize: vertical;
 }
 
-button[type="submit"] {
-    background-color: #007bff;
+button {
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 4px;
     cursor: pointer;
 }
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-
-/* Other styles */
 
 .contact-detail {
     background: rgba(51, 60, 115, 1);
