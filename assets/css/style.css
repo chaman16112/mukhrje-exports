@@ -725,16 +725,6 @@ a {
     padding: 20px;
 }
 
-.card1 span b {
-    position: relative;
-    background-color: #333C73;
-    color: white;
-    border-radius: 50%;
-    padding: 10px;
-    top: -305px;
-    left: 270px;
-}
-
 .card1 h4 {
     color: rgba(73, 73, 73, 1)
 }
@@ -900,6 +890,8 @@ a {
     padding: 15px;
     width: 100%;
     max-width: 600px;
+    margin: auto;
+    /* Center form horizontally */
 }
 
 .form-group {
@@ -924,6 +916,22 @@ a {
     height: 100px;
     resize: vertical;
 }
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Other styles */
 
 .contact-detail {
     background: rgba(51, 60, 115, 1);
