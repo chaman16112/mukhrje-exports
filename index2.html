@@ -6,27 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            margin: 0;
+            /* Ensure no default margin is affecting positioning */
+            padding: 0;
+            /* Remove any default padding */
+        }
+        
         h2 {
             font-size: 36px;
             position: relative;
-            width: 100%;
+            width: fit-content;
+            /* Adjust width to fit the text content */
+            /* margin-bottom: 20px; */
+            /* Add some space between the text and the line */
         }
         
         h2::after {
-            content: " ";
-            width: 100px;
+            content: "";
+            width: 100vw;
             height: 5px;
             background-color: red;
             position: absolute;
-            right: 1040px;
-            top: 25px;
+            left: 0.1;
+            bottom: 10px;
+            transform: translateX(-calc(50vw - 50%));
+            overflow: hidden;
         }
     </style>
 </head>
 
 <body>
-    <h2>Why choose us </h2>
-
+    <h2>Why choose us</h2>
 </body>
 
 </html>
