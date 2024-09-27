@@ -551,7 +551,8 @@ button {
 }
 
 #ourservice {
-    background-image: url(/assets/image/Rectangle\ 1274.png);
+/*     background-image: url(/assets/image/Rectangle\ 1274.png); */
+    background-image:url("../image/Rectangle 1274.png");
     width: 100%;
     height: auto;
 }
@@ -617,7 +618,8 @@ button {
 
 .choose-section {
     margin-top: 50px;
-    background-image: url(/assets/image/Group\ 1261153820.png );
+/*     background-image: url(/assets/image/Group\ 1261153820.png ); */
+    background-image:url("../image/Group 1261153820.png");
     height: 100%;
 }
 
@@ -782,7 +784,8 @@ a {
 }
 
 .navbar-img {
-    background-image: url(/assets/image/Rectangle\ 3\ \(1\).png );
+/*     background-image: url(/assets/image/Rectangle\ 3\ \(1\).png ); */
+    background-image:url("../image/Rectangle 3 (1).png");
     width: 100%;
     height: 55vh;
     background-repeat: no-repeat;
@@ -868,7 +871,8 @@ a {
 }
 
 .section3-about {
-    background-image: url(/assets/image/Rectangle\ 13\ \(1\).png);
+/*     background-image: url(/assets/image/Rectangle\ 13\ \(1\).png); */
+    background-image:url("../image/Rectangle 3 (1).png");
     margin-top: 40px;
     height: 50vh;
 }
