@@ -551,7 +551,7 @@ button {
 }
 
 #ourservice {
-     background-image:url(../image/Rectangle 1274.png); 
+     background-image:url("../image/Rectangle 1274.png"); 
     width: 100%;
     height: auto;
 }
