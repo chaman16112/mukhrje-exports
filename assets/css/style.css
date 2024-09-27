@@ -19,7 +19,7 @@ h6 {
 
 p {
     color: rgba(73, 73, 73, 1);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 200px;
     line-height: 35px;
 }
@@ -71,20 +71,24 @@ main .container-fluid {
 
 h1 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 45px;
     color: #264065;
 }
 
-p {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-    color: rgba(73, 73, 73, 1);
-}
-
 .text {
     padding: 100px 50px;
+    margin-left: 15px;
+}
+
+.text span {
+    color: #FD0000;
+}
+
+.text p {
+    line-height: 35px;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 .img-fluid {
@@ -273,6 +277,10 @@ p {
     }
 }
 
+main {
+    background-image: url(/assets/image/);
+}
+
 #about-us {
     background: rgba(247, 247, 247, 1);
     height: 90vh;
@@ -358,7 +366,7 @@ button {
 
 .ourproduct-input p {
     color: white;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 35px;
     font-weight: 200px;
     padding: 0px 50px;
@@ -483,6 +491,12 @@ button {
     visibility: visible;
 }
 
+.section-product span p {
+    padding: 10px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
 @media (max-width: 935px) {
     .ourproduct-image2 .col-lg-12 {
         display: flex;
@@ -526,6 +540,12 @@ button {
     }
     .section-product .row .col-lg-6 {
         padding: 0px 0px;
+    }
+    .section-product span p {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: start;
     }
 }
 
@@ -613,7 +633,7 @@ button {
     border: 1px solid red;
     width: fit-content;
     height: 415px;
-    margin-right: 50px;
+    margin: 50px;
 }
 
 .first-img-class-1 {
@@ -641,6 +661,9 @@ button {
     }
     .img-section .cards {
         margin-top: 50px;
+    }
+    .choose-section p {
+        font-size: 14px;
     }
 }
 
@@ -684,16 +707,22 @@ footer {
     font-size: 16px;
 }
 
+.footer-input h6 span {
+    border-bottom: 2px solid red;
+    color: white;
+}
+
 .footer-input h6,
 a {
     color: white;
 }
 
-.footer-input li {
-    color: white;
+.footer-input ul {
+    padding-left: 0px;
 }
 
-.footer-input ul li {
+.footer-input li {
+    color: white;
     list-style: none;
 }
 
@@ -706,6 +735,7 @@ a {
     line-height: 30px;
     color: white;
     font-size: 14px;
+    text-align: left;
 }
 
 .footer-icon {
@@ -802,7 +832,7 @@ a {
 .card1 {
     border: 2px solid grey;
     border-radius: 12px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .card1 h4 {
@@ -812,12 +842,13 @@ a {
 .card1 p {
     color: rgba(73, 73, 73, 1);
     text-align: start;
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 @media (max-width: 776px) {
     .navbar-img {
-        height: 60vh;
+        height: 66vh;
     }
     .cards {
         display: flex;
@@ -831,7 +862,7 @@ a {
 
 @media (max-width: 590px) {
     .navbar-img {
-        height: 75vh;
+        height: 103vh;
     }
 }
 
@@ -872,6 +903,7 @@ a {
 
 .cards2 p {
     padding: 20px;
+    font-size: 16px;
 }
 
 .card2 {
@@ -921,7 +953,7 @@ a {
 }
 
 .section-product span p {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .section-product .col-lg-6 h2 {
@@ -933,6 +965,11 @@ a {
     width: 100%;
 }
 
+.product-img img {
+    margin-left: 12px;
+    gap: 10px;
+}
+
 @media (max-width: 776px) {
     .product-img {
         display: block;
@@ -941,15 +978,25 @@ a {
         margin: 20px;
     }
     .section-product span img {
-        margin: 10px;
+        margin-left: 26px;
+        margin-top: 14px;
     }
-    .section-product h2 {
-        margin: 10px 30px;
+    .form-row {
+        display: flex;
+        flex-direction: column;
     }
     .product-img img {
-        margin-left: 1px;
+        margin-left: 6px;
         gap: 10px;
     }
+}
+
+.section-product h2 {
+    margin: 10px 30px;
+}
+
+.section-contact {
+    margin-top: 30px;
 }
 
 .section-contact .contact-section {
